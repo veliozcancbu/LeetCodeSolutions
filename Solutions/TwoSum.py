@@ -1,8 +1,8 @@
 class Solution:
     def twoSum(self, nums: List[int], target: int) -> List[int]:
         #Create a dictionary to hold index and value
-        # target - n = sub, if sub in dict then return indexes, otherwise add index and value to dict
         calculated = {}
+        #target - n = sub, if sub in dict then return indexes, otherwise add index and value to dict
         for i, n in enumerate(nums):
             sub = target - n
             if sub in calculated:
