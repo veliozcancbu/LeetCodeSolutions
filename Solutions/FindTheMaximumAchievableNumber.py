@@ -4,7 +4,8 @@ class Solution:
         while 1<= num and t<=50:    
             return num + 2 * t
         
-        '''You are given two integers, num and t.
+        
+'''You are given two integers, num and t.
 
 An integer x is called achievable if it can become equal to num after applying the following operation no more than t times:
 
