@@ -1,5 +1,10 @@
 class Solution:
     def shuffle(self, nums: List[int], n: int) -> List[int]:
+        
+        ''' The numbers within the series are added to the "result" array 
+         by running the series of length 2n (len(list)/2) times
+         starting from indices 0 and (i+half), one at a time. '''
+        
         result = []
         half = int(len(nums) / 2)
 
@@ -8,6 +13,7 @@ class Solution:
             result.append(nums[i + half])
 
         return result
+
 
 '''Given the array nums consisting of 2n elements in the form [x1,x2,...,xn,y1,y2,...,yn].
 
