@@ -3,9 +3,9 @@ class Solution:
 
         sum = 0
 
-        for g in grid:
-            for i in g:
-                if i < 0:
+        for matrix in grid:
+            for num in matrix:
+                if num < 0:
                     sum += 1
 
         return sum
