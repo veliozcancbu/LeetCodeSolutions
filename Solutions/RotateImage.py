@@ -4,7 +4,14 @@ class Solution:
         Do not return anything, modify matrix in-place instead.
         """
 
-        matrix.reverse()
+        matrix.reverse() 
+        """If you don't want to use ".reverse()" :
+        #l = 0
+        r = len(matrix) -1
+        while l < r:
+	        matrix[l], matrix[r] = matrix[r], matrix[l]
+	        l += 1
+	        r -= 1 """
 
     for i in range(len(matrix)):
         for j in range(i):
