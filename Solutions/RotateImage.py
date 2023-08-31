@@ -6,7 +6,7 @@ class Solution:
 
         matrix.reverse() 
         """If you don't want to use ".reverse()" :
-        #l = 0
+        l = 0
         r = len(matrix) -1
         while l < r:
 	        matrix[l], matrix[r] = matrix[r], matrix[l]
