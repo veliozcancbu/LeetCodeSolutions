@@ -11,7 +11,7 @@ class Solution:
                 right = left + length - 1
                 for last in range(left + 1, right):
                     dp[left][right] = max(dp[left][right],
-                                          nums[left] * nums[last] * nums[right] + dp[left][last] + dp[last][right])
+                    nums[left] * nums[last] * nums[right] + dp[left][last] + dp[last][right])
 
         return dp[0][n + 1]
 
