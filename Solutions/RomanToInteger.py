@@ -1,7 +1,7 @@
 class Solution:
     def romanToInt(self, s: str) -> int:
-        # if roman[s[i]] is smaller than roman[s[i+1]] when read from left to right in the array -> i = -
-        # if roman[s[i]] is higher than roman[s[i+1]] then i = +
+        # if roman[s[i]] smaller than roman[s[i+1]] when read from left to right in the array -> i = -
+        # if roman[s[i]] higher than roman[s[i+1]] then i = +
         roman = {"I": 1, "V": 5, "X": 10, "L": 50, "C": 100, "D": 500, "M": 1000}
         output = 0
 
