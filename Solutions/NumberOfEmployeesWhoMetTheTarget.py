@@ -6,7 +6,7 @@ class Solution:
             if i >= target:
                 result += 1
 
-        return result
+        return result  
 
 '''There are n employees in a company, numbered from 0 to n - 1. Each employee i has worked for hours[i] hours in the company.
 
