@@ -8,6 +8,20 @@ class Solution:
                 return True
 
         return False
+        #----------------------------------------------------------------------
+        ##Solution with Hashmap:
+        #from collections import defaultdict
+
+        #class Solution:
+        #   def containsDuplicate(self, nums: List[int]) -> bool:
+        #       d = defaultdict(int)
+
+        #       for i in nums:
+        #           if d[i] == 1:
+        #               return True
+        #           d[i] = 1
+        #----------------------------------------------------------------------
+
 
 """Given an integer array nums, return true if any value appears at least twice in the array, and return false if every element is distinct.
 
