@@ -9,25 +9,25 @@ class Solution:
         return i
 #----------------------Another Solution-----------------------------
 #--------------------Time Limit Exceeded----------------------------
-"""class Solution:
-    def firstMissingPositive(self, nums: List[int]) -> int:
-        res = None
+#class Solution:
+#   def firstMissingPositive(self, nums: List[int]) -> int:
+#        res = None
 
-        nums = [x for x in nums if x > 0]
+#        nums = [x for x in nums if x > 0]
 
-        if nums == []:
-            return 1
+#        if nums == []:
+#            return 1
 
 
-        for j in range(1,max(nums)):
-            if j not in nums:
-                res = j
-                break
+#        for j in range(1,max(nums)):
+#            if j not in nums:
+#                res = j
+#                break
 
-        if res is None:
-            res = max(nums)+1
+#        if res is None:
+#            res = max(nums)+1
 
-        return res"""
+#        return res
 #-------------------------------------------------------------------
 
 """Given an unsorted integer array nums, return the smallest missing positive integer.
