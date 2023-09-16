@@ -6,6 +6,16 @@ class Solution:
 
         return num == num_reversed2
 
+#-----------------------------Another Solution-------------------------------------
+#class Solution:
+#    def isSameAfterReversals(self, num: int) -> bool:
+#
+#        if len(str(num)) > 1 and str(num)[-1] == "0":
+#            return False
+#        else:
+#
+#            return True
+#-----------------------------------------------------------------------------------
 """Reversing an integer means to reverse all its digits.
 
 For example, reversing 2021 gives 1202. Reversing 12300 gives 321 as the leading zeros are not retained.
