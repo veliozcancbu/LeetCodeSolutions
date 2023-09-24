@@ -1,2 +1,2 @@
 # LeetCodeSolutions
-This repository contains my Python solutions for LeetCode problems.
+This repository contains my solutions for LeetCode problems (Python/Pandas).
