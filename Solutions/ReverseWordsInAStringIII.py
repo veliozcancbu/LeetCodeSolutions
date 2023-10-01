@@ -7,6 +7,11 @@ class Solution:
 
         return " ".join(s_list)
 
+#-----------------Another Solution-----------------
+#--------------------------------------------------
+#return ' '.join([w[::-1] for w in s.split(' ')])
+#--------------------------------------------------
+
 """Given a string s, reverse the order of characters in each word within a sentence while still preserving whitespace and initial word order.
 
  
