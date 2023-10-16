@@ -6,7 +6,6 @@ class Solution:
         #ans[0] = ans[-1] = 1
 
         for i in range(1, rowIndex+1):
-            # compute the i-th element of the current row
             num = (rowIndex-(i-1)) * ans[-1] // i
             ans.append(num) 
         return ans
